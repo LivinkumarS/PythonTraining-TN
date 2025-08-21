@@ -1,0 +1,41 @@
+Python
+------
+>> High-level, interpreted, general-purpose programming language.
+
+compilation ---> whole code will get converted into machine code. Ex: C,C++,Java
+interpretation --> line by line code execution. Ex: Python
+
+Key - features:
+---------------
+Simple and easy to read syntax.
+
+.py ---> extension for python file.
+
+
+In-built function to show an output
+--------------------------------------
+print() ---> code ---> ouput.
+
+Variable
+---------
+>> these are just a container to store a piece of data.
+
+name = data.
+
+
+In-built function to get input
+-------------------------------
+input(sentence) output --> code.
+
+to execute python file in terminal ---> python "file name".
+
+Comments
+-----------
+Comments will not get executed.
+Single line comment --> #
+mmultiline commnt ---> '''  comment   '''
+
+Basic Syntax Rule
+-----------------
+>> Case sensitive.
+>> Indentation is important.
