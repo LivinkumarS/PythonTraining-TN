@@ -20,6 +20,13 @@ Variable
 ---------
 >> these are just a container to store a piece of data.
 
+rule:
+------
+>> variable name can contain letters, numbers and _.
+>> a variable name should start with lettr or _.
+>> cannot use any revserved keywords.. (for, while, if...)
+
+
 name = data.
 
 
@@ -39,3 +46,24 @@ Basic Syntax Rule
 -----------------
 >> Case sensitive.
 >> Indentation is important.
+
+
+Datatypes
+-----------
+type()---> find datatype of an object
+
+Integer---> whole numbers --> Ex: 1,2,3,7,0,-1,-2
+Float---> decimal numbers ---> -2.2223, -33.676, 55.555, 1.0
+
+String---> Sequence on characters inside quotes.'',"". for concatination ---> +. formatted string---> f""
+
+Boolean---> True and False
+
+Type Casting
+-------------
+coverting one datatype into another.
+
+str(obj) ---> converts into string.
+int(obj)  --> contverting into Integer
+float(obj) --> to float
+bool(obj) ---> to float.
