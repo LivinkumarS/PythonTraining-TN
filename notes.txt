@@ -131,3 +131,53 @@ Bitwise Operator
 (not) ~ --> not operation between bits. Ex: ~5=-6, ~6=-7, ~-7=6. ~a=-(a+1)
 (Left Shift) num<<pos --> ex: 6<<2.
 (Right Shift) num>>pos --> 6>>2
+
+
+Control Flow
+-------------
+>> It execute a block of code depending on conditions.
+
+if block:
+---------
+>>if the given condition is True, then it will execute that block of code. otherwise, it will just skip it.
+syntax:
+--------
+if condition:
+    block of code.
+
+else block:
+-----------
+>> should always come with if block
+syntax 
+-------
+if condition:
+    #if block code 
+else:
+    #else block code
+
+elif block:
+------------
+>> this block should come after if block, but before else
+syntax 
+--------
+elif condition:
+    #block elif code
+
+if condition1:
+    #if block
+elif condition2:
+    #elif block
+elif condition3:
+    #elif block
+elif condition4:
+    #elif block
+else:
+    #else block
+
+Nested If:
+----------
+>> Using if statements inside another if.
+
+if condition:
+    if condition:
+        #block of code
