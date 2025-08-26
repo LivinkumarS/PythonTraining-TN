@@ -67,3 +67,67 @@ str(obj) ---> converts into string.
 int(obj)  --> contverting into Integer
 float(obj) --> to float
 bool(obj) ---> to float.
+
+
+Operators
+---------
+>> 1+2  --> 1,2--> operands, + --> operator.
+
+Arithmetic Operators  (only with numbers)
+--------------------
+Add ---> +
+Sub ---> -
+Div ---> /
+Mul ---> *
+Floor Div --> // (quo)
+Modulus ---> % (Reminder). 10%3-->3*3-->9--> 10-9=1. 44%3--> 14*3-->42 -->2. 2/3-->0*3--> 0-->2-0-->2
+Expo--> ** --> 2 ** 2 --> 2 power 2.
+
+BODMAS --> Brackets, Order (of), Div, Mul, Add, Sub.
+
+Comparison/Relational Operators
+----------------------------------
+used to compare values, return only Boolean Values(True/False).
+
+== --> equal to operator.
+!= --> not equal.
+> ---> greater than
+< ---> lesser than 
+<= ---> Lesser than or equal 
+>= ---> Greater than or equal 
+
+Logical operator (booleans)
+----------------
+
+and ---> True--> when the both booleans are true. False otherwise.
+
+or ----> True --> when any one of the oprerands is True. When both are false --> False
+
+not --> one operand. inverts a boolean value.
+True --> False
+False --> True
+
+boolean1  boolean2
+True      True
+True      False 
+False     True
+False     False
+
+Assignment Operators 
+--------------------
+= ---> assign.
++= --> Add and assign. Ex: a+=b. a=a+b
+-= --> Subtract and assign.
+*= --> Subtract and assign.
+/= --> Div and assign.
+%= --> Mod and assign.
+**= --> expo and assign
+
+Bitwise Operator 
+----------------
+
+(AND) & --> and operation bitwise. 7&8--> 0
+(OR) | --> or operation bitwise. 7|8--> 0
+(not) ~ --> not operation between bits. Ex: ~5=-6, ~6=-7, ~-7=6. ~a=-(a+1)
+(Left Shift) num<<pos --> ex: 6<<2.
+(Right Shift) num>>pos --> 6>>2
