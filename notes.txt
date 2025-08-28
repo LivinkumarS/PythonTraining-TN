@@ -56,6 +56,11 @@ Integer---> whole numbers --> Ex: 1,2,3,7,0,-1,-2
 Float---> decimal numbers ---> -2.2223, -33.676, 55.555, 1.0
 
 String---> Sequence on characters inside quotes.'',"". for concatination ---> +. formatted string---> f""
+It is an iteratable object... using the index number, we can access each and eveery char from a string.
+a="Hello"
+a[0]
+
+
 
 Boolean---> True and False
 
@@ -181,3 +186,38 @@ Nested If:
 if condition:
     if condition:
         #block of code
+
+Loops:
+------
+
+>> Repitition without writing the same code again.
+
+While Loop:
+------------
+>> As long as condition is True.
+Syntax:
+-------
+while condition:
+    #block of code
+
+For Loop
+---------
+>> Runs for a fixed number of iteration.
+>> It is used to iterate over an iteratable object.
+Ex: String, List...
+
+Syntax:
+-------
+for var in iteratableObj:
+    #block of code.
+
+range()--> is used to create an iteratable object that has fixed number of numbers.
+
+range(end)-->[0,1,2,3......9,10].[9,19]
+range(start,end)(9,20)-->[9,10,....19]
+range(start,end,step) (3,15,2) -->[3,5,7,9,11,13]
+
+Control statements
+--------------------
+break --> it will break the loop.
+continue --> it will just skip the current iteration.
