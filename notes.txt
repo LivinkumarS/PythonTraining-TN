@@ -72,6 +72,10 @@ str(obj) ---> converts into string.
 int(obj)  --> contverting into Integer
 float(obj) --> to float
 bool(obj) ---> to float.
+list(obj)
+set(obj)
+tuple(obj)
+dict(obj)
 
 
 Operators
@@ -221,3 +225,64 @@ Control statements
 --------------------
 break --> it will break the loop.
 continue --> it will just skip the current iteration.
+
+Indexing and slicing
+-----------------------
+>> works in every iteratable obj.
+Indexing---> obj[ind]
+
+Slicing--> a="The war"
+1) [start:]--> a[2:]-->"e war"
+2) [start: end]--> a[2:4]-->2,3--> "e "
+
+
+DataStructures
+---------------
+>> a way to store and organize data for efficient access.
+
+List:
+-----
+>> [data1, data2.....]
+>> Iteratable and Mutable and Duplicates are allowed.
+Mutable---> Values can be changed.
+
+In-built methods of list 
+-------------------------
+.append(val) --> add the values at end.
+.insert(pos, val) --> adds element at specified position.
+.pop() --> it will just remove the last element from the list.
+.pop(ind) --> it will remove that particular index.
+.remove(ele) --> removes  a particular element.(first occurence)
+.sort()---> arranges a list
+.reverse() ---> reversing the list.
+.index()---> index of any value
+
+Tuple
+------
+>> (ele1, ele2,.....)
+>> Iteratable, immutable, it allows duplicate.
+
+> Faster than List, Fixed datatype.
+
+Set 
+----
+>> {val1, val2, val3}
+it does not allow duplicate.
+No indexing and No Slicing.
+
+in-built methods 
+-------------------
+set1.intersection(set2)--> common elements
+set1.union(set2)--> all the elements elements
+
+Dict 
+--------
+>> {key1:val1,key2:value2,......}
+dict[key] --> to access the value.
+
+mutable
+
+in-built methods
+------------------
+.keys() --> list of keys
+.values() --> list of values 
