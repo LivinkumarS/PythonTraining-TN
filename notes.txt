@@ -286,3 +286,53 @@ in-built methods
 ------------------
 .keys() --> list of keys
 .values() --> list of values 
+
+
+Functions and Scopes
+---------------------
+>> A function is a block of code that is written once and can be used multiple times.
+
+>> Avoids repeating the code.
+
+syntax:
+-------
+def funcName():
+    #block of code
+
+calling:
+---------
+funcName()
+
+Parameters and Arguments:
+--------------------------
+P--> Variables written inside a function definition without static value.
+
+A--> Arguments are the actual values you pass when you call the function.
+
+Types of P & A.
+----------------
+1)Positional Arguments
+>> Order matters
+
+2)Keyword arguments 
+---------------------
+>>specify parameter name while calling.
+
+3) Default Argument
+--------------------
+>> Give a default value in case no arguement is passed
+
+
+Return Keyword
+--------------
+>> Functions can return data to the caller
+
+>> to break a function 
+>> give some data to the caller
+
+Scopes
+-------
+>> the region of the program where a variable is recognized and can be used.
+
+Local scope --> inside the current function
+Global scope -->  outside the function
