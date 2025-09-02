@@ -56,10 +56,29 @@ Integer---> whole numbers --> Ex: 1,2,3,7,0,-1,-2
 Float---> decimal numbers ---> -2.2223, -33.676, 55.555, 1.0
 
 String---> Sequence on characters inside quotes.'',"". for concatination ---> +. formatted string---> f""
-It is an iteratable object... using the index number, we can access each and eveery char from a string.
+It is an iteratable object... using the index number, we can access each and every char from a string.
 a="Hello"
 a[0]
+>>String is immutable.
 
+String Operations
+------------------
+1)Concatination--->(+)
+2)Repetition --> (*)
+3)Membership ---> in, not in(Boolean)
+
+In built functions of String 
+-----------------------------
+.upper() --> convert into uppercase
+.lower() --> convert into lowercase
+.title() --> convert into titlecase
+.strip() --> removes the spaces at begenning and ending
+.replace(string,substring)--> replaces a substring
+.split() ---> string into a list....
+.join(list) ---> list into a string
+.find(substring) ---> returns index of the substring. -1 --> not found.
+.startswith(substring)--> check whether the string starts with this substring or not.
+.endswith(substring) --> check whether the string ends with this substring or not.
 
 
 Boolean---> True and False
@@ -234,6 +253,9 @@ Indexing---> obj[ind]
 Slicing--> a="The war"
 1) [start:]--> a[2:]-->"e war"
 2) [start: end]--> a[2:4]-->2,3--> "e "
+3) [:end] --> 0 to end-1
+4) [::-1] --> slice reverse the string 
+5) [start:end:steps]
 
 
 DataStructures
@@ -335,4 +357,16 @@ Scopes
 >> the region of the program where a variable is recognized and can be used.
 
 Local scope --> inside the current function
-Global scope -->  outside the function
+Global scope -->  outside the function.
+
+Exception Handling
+-------------------
+
+
+
+File Handling 
+--------------
+
+
+OOP 
+---
