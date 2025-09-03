@@ -361,11 +361,33 @@ Global scope -->  outside the function.
 
 Exception Handling
 -------------------
+Exception:
+Errors that occur during runtime . Ex: ZeroDivisionError, ValueError, SyntaxError...
+
+try:
+    block code
+except errorName:
+    block of code
+finally:
+    block of code
 
 
 
 File Handling 
 --------------
+Open a file---> open("address",'mode')
+Close a file ---> file.close()
+to read all the content --> file.read()
+to read content line by line---> file.readline()
+to read every lines in one go ---> file.readlines() 
+
+to over write content into a file ---> write(content)
+
+mode:
+------
+read --> 'r'
+write --> 'w'
+append --> 'a'
 
 
 OOP 
