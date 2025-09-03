@@ -392,3 +392,7 @@ append --> 'a'
 
 OOP 
 ---
+Object Oriented Programming.
+
+car --------> Blue print
+(object)      (class)
